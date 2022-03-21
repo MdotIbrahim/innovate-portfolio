@@ -1,1 +1,2 @@
-print("Life")
+print("Life\n")
+print("efiL")
