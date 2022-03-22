@@ -6,5 +6,5 @@ def table_func(number):
 while multiplication:
     number = int(input("Enter a number: "))
     if number == 999:
-        break # ends loop to start next activity - originally used multiplication = False as i always dobut break also ends the loop! Continue works the smae way.
+        break
     table_func(number)
