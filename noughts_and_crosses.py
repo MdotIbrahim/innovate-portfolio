@@ -9,6 +9,10 @@ def game_start():
         if game == True:
             turn += 1
             position = input(f"Where do you want to place the {player_icon}? Press 1 for top row , 2 for second row and 3 for third row. Follow this with 1 for first column, 2 for second colum and 3 for third column. E.g 12 is first row middle column and 31 would be bottom row and first column ")
+            # if position != "11" or position != 12 or position != 13 or position != 21 or position != 22 or position != 13 or position != 31 or position != 32 or position != 33:
+            #     print("\nIncorrect input! Try 22 for middle square!\n")
+            #     player_choice()
+            # else:
             horizontal = int((position[0]))
             vertical = int((position[1]))
             if turn > 1:
@@ -65,6 +69,12 @@ def game_start():
         elif board[0][0] == computer_icon and board[0][1] == computer_icon and board[0][2] == computer_icon or board[1][0] == computer_icon and board[1][1] == computer_icon and board[1][2] == computer_icon or board[2][0] == computer_icon and board[2][1] == computer_icon and board[2][2] == computer_icon or board[0][0] == computer_icon and board[1][0] == computer_icon and board[2][0] == computer_icon or board[0][1] == computer_icon and board[1][1] == computer_icon and board[2][1] == computer_icon or board[0][2] == computer_icon and board[1][2] == computer_icon and board[2][2] == computer_icon or board[0][0] == computer_icon and board[1][1] == computer_icon and board[2][2] == computer_icon or board[0][2] == computer_icon and board[1][1] == computer_icon and board[2][0] == computer_icon:
             print(f"\n{row1}\n{row2}\n{row3}")
             print("\nYou Lose!")
+            game = False
+        elif board.count("X") + board.count("O") == 9:
+
+        # board[0][0] == computer_icon or board[0][0] == player_icon and board[0][1] == computer_icon or board[0][1] == player_icon and board[0][2] == computer_icon or board[0][2] == player_icon and board[1][0] == computer_icon or board[1][0] == player_icon and board[1][1] == computer_icon or board[1][1] == player_icon and board[1][2] == computer_icon or board[1][2] == player_icon and board[2][0] == computer_icon or board[2][0] == player_icon and board[2][1] == computer_icon or board[2][1] == player_icon and board[2][2] == computer_icon or board[2][2] == player_icon:
+            print(f"\n{row1}\n{row2}\n{row3}")
+            print("\nIt's a draw!")
             game = False
         else:
             return
