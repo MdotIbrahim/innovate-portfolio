@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("person.png"); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2%;
+    text-align: center;
+    background-image: linear-gradient(#49047e, #3e236a, #343f58, #2f4e4f);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    resize: auto;
+    justify-content: space-evenly;
+    background-color: #280c46;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 1%; 
+    font-size: 100;
+    font-family: "poor richard", Arial, Helvetica, sans-serif;
+}
+
+.navbar a{
+    color:#3bc9be;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { color:#06c406 }
+a:active { text-decoration: none; }
+
+a {  
+color: #f05e45;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    text-shadow: 1px 1px var(--emph);
+    font-weight: normal;
+}
+h1 {
+    color:rgb(27, 236, 139);
+    font-size: 40px;
+    /* background-image: url(fkmt.jpeg); */
+    font-family: "poor richard", Arial, Helvetica, sans-serif;
+}
+
+.home_title {
+    color: lightblue;
+}
+
+h2 {
+    color: #d6a220;
+    font-family: "Poor story", Arial, Helvetica, sans-serif;
+}
+
+.profile{
+    display: block;
+    float: left;
+    padding: 20px;
+    clear: both;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.p_text {
+    font-size: 125%;
+    color: #c8caca;
+}
+
+.violet {
+    color: violet;
+}
+
+.large {
+    font-size: 50px;
+}
+
+#manga, #manga a{
+    text-align: right;
+    color: rgb(5, 191, 253);
+}
+#manga a:hover {color:deeppink}
+
+#manga_site{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2%;
+    text-align: center;
+    background-image: linear-gradient(#8b817f, #5d8ce4, #5dc2fd, #009FB7);
+}
+
+.manga_list {
+    text-align: left
+}
