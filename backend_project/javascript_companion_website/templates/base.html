@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}"> <!--connects html to main.css in flask-->
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}"> <!--connects html to main.css in flask using jinja2-->
+
+    <link rel="stylesheet" href="{{url_for('static', filename='javascript_companion_website/app.js')}}">
+    <script type="javascript" src="{{url_for('static', filename='app.js')}}"></script>
     <script src="app.js"></script>
+    <script src="{{url_for('static', filename='javascript_companion_website/app.js')}}"></script>
+
     <title>{% block title%}{% endblock %}- Code Nation</title>
 </head>
 <body>
@@ -16,6 +21,7 @@
         <a href="/about">About Us</a>
         <a href="/courses">Courses</a>
         <a href="/contact"> Contact</a>
+        <!-- <button onclick="contact.html">Contact Page</button> -->
     </div>
     </nav>
     {% block content %}
