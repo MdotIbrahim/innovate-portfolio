@@ -1,0 +1,39 @@
+@import "setting";
+
+body {
+    background-color: $backgroundColour;
+}
+
+h1 {
+    @include title;
+    font-size: 36px;
+    text-align: left
+}
+
+h2 {
+    @include title;
+    font-size: 18px;
+    text-align: right;
+}
+
+.one {
+    padding: 10px 20px;
+    font-family: $mainFont;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.two {
+    @extend .one;
+    background-color: rgb(161, 94, 224);
+}
+
+.three {
+    @extend .one;
+    background-color: rgb(98, 167, 167);
+}
+
+p {
+    font-family: $mainFont;
+    color: $fontColour;
+}

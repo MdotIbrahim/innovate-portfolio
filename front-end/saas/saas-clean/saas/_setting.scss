@@ -1,0 +1,11 @@
+$backgroundColour: #223653;
+$fontColour: #6fcceb;
+$accentColour: #6d3f3a;
+
+$headingFont: monospace;
+$mainFont: helvetica;
+
+@mixin title {
+    font-family: $headingFont;
+    color: $fontColour;
+} 

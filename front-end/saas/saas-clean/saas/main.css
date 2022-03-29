@@ -1,0 +1,38 @@
+body {
+  background-color: #223653;
+}
+
+h1 {
+  font-family: monospace;
+  color: #6fcceb;
+  font-size: 36px;
+  text-align: left;
+}
+
+h2 {
+  font-family: monospace;
+  color: #6fcceb;
+  font-size: 18px;
+  text-align: right;
+}
+
+.one, .two, .three {
+  padding: 10px 20px;
+  font-family: helvetica;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.two {
+  background-color: #9241dd;
+}
+
+.three {
+  background-color: #2daf7d;
+}
+
+p {
+  font-family: helvetica;
+  color: #9de1f8;
+}
+/*# sourceMappingURL=main.css.map */

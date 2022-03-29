@@ -1,0 +1,29 @@
+body {
+  background-color: #42e422;
+}
+
+.header {
+  border: 3px solid #ac992f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1, h2 {
+  font-family: monospace;
+  font-size: 500%;
+  color: #107e54;
+}
+
+h2 {
+  text-align: right;
+  border: 3px dashed;
+}
+/*# sourceMappingURL=main.css.map */
