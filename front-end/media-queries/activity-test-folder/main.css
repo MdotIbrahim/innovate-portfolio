@@ -1,0 +1,33 @@
+/* body {
+} */
+
+.desktop, .mobile {
+    display:none;
+}
+
+@media (orientation: portrait) {
+    body {
+        color: white;
+        background-color: #2d2d2d
+    }
+    .mobile{
+        text-align: center;
+        padding: 5%;
+        font-size: 2em;
+        display: inline-block;
+    }
+}
+
+@media (orientation: landscape) {
+    body{
+        color: black;
+        background-color: white;
+    }
+    .desktop{
+        text-align: center;
+        padding: 5%;
+        font-size: 4em;
+        display: inline-block;
+    }
+}
+/* no dot before body otherwise css would think its a class... */
