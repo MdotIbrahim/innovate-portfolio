@@ -52,5 +52,53 @@ if (myJob === "Free" || myJob === "Not Free") {
 function myFunction() {
     console.log("This is a Javascript function")
 }
-
 myFunction()
+
+//! STRING INTERPOLATION
+
+console.log(`Your name is ${myFirstName} ${mySurname}.`)
+
+//! ARRAYS
+
+let innovateInstructors = ["Jordan", "Katy"];
+
+console.log(innovateInstructors);
+console.log(innovateInstructors[1]);
+
+//! LOOPS
+
+let text = ""
+
+for (let i = 0; i < 5; i++) {
+    text += "the number is " + i + " ";
+}console.log(text)
+
+let i = 5
+while (i < 10) {
+    text = text += "the number is " + i;
+    i++;
+}console.log(text)
+
+//! SWITCH STATEMENTS
+let fruit = "apple";
+switch (fruit) {
+    case "grape":
+        console.log("grape");
+        break;
+    case "orange":
+        console.log("orange");
+        break;
+    case "apple":
+        console.log("apple!");
+        break;
+    default:
+        console.log("I don't like that fruit.")
+}
+
+//! ARROW FUNCTIONS
+
+hello = () => {
+    console.log("Hello World!");
+}
+
+hello()

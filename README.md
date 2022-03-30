@@ -19,10 +19,10 @@ Educational Repo that houses code used within Code Nation's Innovate Coding Cour
 ### Front-End
 
 [x] HTML & CSS Recap  
-[ ] CSS Level-Up  
-[ ] Media Queries  
-[ ] Introduction to Sass  
-[ ] Introduction to JavaScript  
+[x] CSS Level-Up  
+[x] Media Queries  
+[x] Introduction to Sass  
+[x] Introduction to JavaScript  
 [ ] JavaScript Events  
 [ ] Introductuion to jQuery  
 [ ] Introduction to Bootstrap
