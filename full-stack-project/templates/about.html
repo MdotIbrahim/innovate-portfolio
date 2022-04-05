@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{%block title %}About Me{% endblock %}
+
+{%block content %}
+<header><h1>About Me</h1></header>
+<button onclick="darkMode()" class="dark-mode-button">DARK MODE</button>
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <div class="carousel-inner" class="carousel">
+      <div class="carousel-item active">
+        <img src="/static/images/theme_1.jpg" alt="Theme" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/images/theme_4.jpg" alt="Theme2" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/images/theme_3.jpg" alt="Theme3" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <div class="container-fluid mt-3">
+      <br><br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate expedita neque atque voluptates incidunt nihil quae laborum eum iste dolorem veniam aliquid nesciunt non necessitatibus veritatis, voluptatibus similique hic laboriosam inventore facere? Debitis deleniti libero non laudantium numquam culpa optio, aut asperiores maxime minima vel nam laborum hic atque magni eaque ad exercitationem aliquid quisquam consequuntur ipsa? Fugit libero, consequuntur eos natus autem quod nulla enim ratione dolorem itaque sint at accusamus quia rem laboriosam magni quisquam quasi hic ab accusantium in cum, molestias optio inventore. Ad rem laboriosam molestiae delectus, provident perferendis, iure, nulla neque itaque odio nihil. Illo.</p>
+    <br><br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ab necessitatibus voluptates, assumenda quidem totam sequi similique fugit dolorem perferendis, molestias, ad deleniti non quibusdam aliquid accusamus saepe nisi commodi odit nobis magni! Blanditiis, soluta quidem? Porro quibusdam molestias eaque ipsa deserunt fugit iste eum, modi adipisci mollitia ducimus corporis.</p>
+  </div>
+
+{% endblock %}
