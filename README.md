@@ -23,6 +23,6 @@ Educational Repo that houses code used within Code Nation's Innovate Coding Cour
 [x] Media Queries  
 [x] Introduction to Sass  
 [x] Introduction to JavaScript  
-[ ] JavaScript Events  
-[ ] Introductuion to jQuery  
-[ ] Introduction to Bootstrap
+[x] JavaScript Events  
+[x] Introductuion to jQuery  
+[x] Introduction to Bootstrap
