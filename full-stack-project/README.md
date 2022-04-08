@@ -1,5 +1,4 @@
 # Full Stack Project
-
 https://innovate-mi.herokuapp.com/
 
 ## Description
